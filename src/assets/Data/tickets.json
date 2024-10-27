@@ -1,0 +1,12 @@
+[
+  {
+    "type": "Tavaline",
+    "price": 1200,
+    "description": "8 ekskursiooni, Standardtuba, Majandusklass, Hommikusöök"
+  },
+  {
+    "type": "Lux",
+    "price": 1400,
+    "description": "8 ekskursiooni, VIP tuba, Äriklass, Täispansion, Helikopteriga lend"
+  }
+]

@@ -1,0 +1,63 @@
+
+.hidden-form-overlay {
+  background-color: rgba(29, 29, 29, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  /* height: calc(100vh - 80px); */
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
+
+
+.hide {
+  display: none;
+}
+
+.hidden-form-container {
+  background-color: var(--white);
+  width: 1416px;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 8;
+  cursor: default;
+  /* box-shadow: 0px 0px 0px 6000px rgb(29, 29, 29,0.5); */
+}
+
+.hidden-form-container svg {
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.hidden-form-container h3 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.hidden-form {
+  width: 66.10169491525424%;
+}
+
+.hidden-form .input-div, .hidden-form .button {
+  width: 100%;
+  margin: 12px 0;
+
+}
+
+.hidden-form .button {
+  padding: 13px 0;
+}
+
+@media screen and (max-width: 1472px) {
+  .hidden-form-container {
+    width: 96%;
+  }
+}

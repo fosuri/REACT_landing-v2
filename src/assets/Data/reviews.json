@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Aleksandar A.",
+    "description": "\"Reis Keeniasse oli uskumatu! Imelised safarid, sõbralikud giidid ja vapustavad vaated. Iga hetk oli täis seiklusi ja unikaalseid elamusi. Kindlasti tulen tagasi!\"",
+    "image": "review1.jpg",
+    "alt": "review1"
+  },
+  {
+    "id": 2,
+    "name": "Denis R.",
+    "description": "\"Reis Keeniasse ületas kõik ootused! Hästi korraldatud ekskursioonid ja mugav majutus. Kohtumine metsloomadega rahvusparkides jättis unustamatud mälestused. Soovitan kõigile looduse- ja seiklusearmastajatele!\"",
+    "image": "review2.jpg",
+    "alt": "review2"
+  },
+  {
+    "id": 3,
+    "name": "Georgi P.",
+    "description": "\"Reis Keeniasse ületas kõik ootused! Hästi korraldatud ekskursioonid ja mugav majutus. Kohtumine metsloomadega rahvusparkides jättis unustamatud mälestused. Soovitan kõigile looduse- ja seiklusearmastajatele!\"",
+    "image": "review3.jpg",
+    "alt": "review3"
+  }
+]

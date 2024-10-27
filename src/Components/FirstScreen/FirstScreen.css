@@ -1,0 +1,48 @@
+
+.first-screen {
+  /* background-color: blueviolet; */
+  height: 100vh;
+  /* background-image: url("../images/first_screen.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-screen-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: violet; */
+  width: 950px;
+  /* padding-top: 200px; */
+}
+
+.first-screen-content p {
+  width: 90%;
+  text-align: center;
+}
+
+
+.first-screen-content p strong {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  text-align: center;
+  color: var(--white);
+  font-weight: 500;
+}  
+
+.first-screen-content .button {
+  padding: 13px 48px;
+  margin-top: 24px;
+}
+
+
+@media (max-width: 500px) {
+  .first-screen-content p strong {
+    font-size: 1.125rem;
+  }
+
+}

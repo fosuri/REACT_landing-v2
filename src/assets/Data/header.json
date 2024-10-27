@@ -1,0 +1,22 @@
+[
+  {
+    "text": "MIKS MEIE?",
+    "refKey": "whyRef"
+  },
+  {
+    "text": "ARVUSTUSED",
+    "refKey": "reviewsRef"
+  },
+  {
+    "text": "PILETID",
+    "refKey": "ticketsRef"
+  },
+  {
+    "text": "KES ME OLEME?",
+    "refKey": "whoRef"
+  },
+  {
+    "text": "KONTAKTID",
+    "refKey": "footerRef"
+  }
+]

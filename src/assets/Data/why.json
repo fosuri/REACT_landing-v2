@@ -1,0 +1,26 @@
+[
+  {
+    "title": "TÕELINE PUHKUS",
+    "description": "Võtame enda kanda kogu teie reisi korraldamise, et teie puhkus tõeliselt jääks puhkuseks. Unustage lõputu hotellide broneerimine, marsruutide koostamine ja piletite otsimine lennukitele, rongidele ja bussidele.",
+    "image": "why1.jpg",
+    "alt": "why1"
+  },
+  {
+    "title": "UNUSTAMATUD ELAMUSED",
+    "description": "Pakume reise sellistesse paikadesse, kus iga samm on võimalus nautida hetke ja luua hindamatuid mälestusi, mida saate jagada sõprade, kolleegide ja tulevaste põlvkondadega.",
+    "image": "why2.jpg",
+    "alt": "why2"
+  },
+  {
+    "title": "SILMAPIIRI LAIENDAMINE",
+    "description": "On raske ülehinnata reisimise mõju meie maailmatajule, teistele inimestele ja meie kohale maailmas. Üksainus reis on võrreldav sadade loetud uudiste ja raamatutega. Efekt tugevneb, kui reisida avatud südamega.",
+    "image": "why3.jpg",
+    "alt": "why3"
+  },
+  {
+    "title": "HUVITAV SELTSKOND",
+    "description": "Kui olete otsustanud minna nii erakordsetesse kohtadesse, kohtate suure tõenäosusega põnevaid reisikaaslasi – inimesi, kes jagavad teie huvisid ja vaateid.",
+    "image": "why4.jpg",
+    "alt": "why4"
+  }
+]

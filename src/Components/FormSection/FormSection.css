@@ -1,0 +1,72 @@
+.open-form {
+  /* background-color: darkseagreen; */
+  width: 936px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+#phone {
+  display: flex;
+  gap: 12px;
+}
+
+#phonecode {
+  width: 100px;
+  color: var(--black);
+}
+
+
+.two-col {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.open-form .button {
+  width: 100%;
+  padding: 13px 0px;
+}
+
+.form-section .privacy-policy {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.125rem;
+  color: var(--light-gray);
+  font-weight: 700;
+  text-align: center;
+}
+
+.form-section .privacy-policy a {
+  color: var(--light-gray);
+}
+
+.form-section .privacy-policy a:hover {
+  color: var(--black);
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+}
+
+
+@media (max-width: 1100px) {
+  .open-form {
+    width: 83.00653594771242%;
+  }
+
+  .privacy-policy {
+    width: 83.00653594771242%;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 844px) {
+  .two-col {
+    flex-direction: column;
+  }
+}

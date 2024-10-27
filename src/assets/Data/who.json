@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Nikita Karpov",
+    "description": "Inspireeriv juht, kellel on erksad kujutlused ja kirg reisimise vastu. Ta otsib pidevalt uusi võimalusi ja püüab muuta iga idee reaalsuseks, luues unikaalseid ja kaasahaaravaid ekskursioone.",
+    "inst": "@fosuri",
+    "image": "mario2.jpg",
+    "alt":"mario2"
+  },
+  {
+    "name": "Arseni Bogatõrjov",
+    "description": "Energeetiline ja vastutustundlik korraldaja, kes oskab töötada inimestega ja lahendada probleeme jooksu pealt. Tema tähelepanu detailidele ja juhtimisoskused aitavad tagada ettevõtte sujuva töö ja kõrge teenuse kvaliteedi.",
+    "inst": "@vizerion",
+    "image": "mario.jpg",
+    "alt": "mario"
+  }
+]

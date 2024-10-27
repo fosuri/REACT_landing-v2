@@ -1,0 +1,41 @@
+[
+  {
+    "Section": "KONTAKTID",
+    "info": [
+      {
+        "id": 1,
+        "text": "Telefon : +372 9999 9999",
+        "icon": "call-in-svgrepo-com.svg",
+        "alt":"call-in-svgrepo-com"
+      },
+      {
+        "id": 2,
+        "text": "Epost: presprctive@tours.ee",
+        "icon": "mail-svgrepo-com.svg",
+        "alt":"mail-svgrepo-com"
+      }
+    ]
+  },
+  {
+    "Section": "SOTSIAALVÕRGUSTID",
+    "info": [
+      {
+        "id": 1,
+        "text": "perspective.tours",
+        "icon": "instagram-svgrepo-com.svg",
+        "alt":"instagram-svgrepo-com"
+      },
+      {
+        "id": 2,
+        "text": "PERSPECTIVE TOURS",
+        "icon": "youtube-svgrepo-com.svg",
+        "alt":"youtube-svgrepo-com"
+      },
+      {
+        "id": 3,
+        "text": "perspectivetours",
+        "icon": "telegram-svgrepo-com.svg"
+      }
+    ]
+  }
+]

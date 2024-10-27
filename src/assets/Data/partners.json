@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "image": "sarova.png",
+    "alt": "sarova"
+  },
+  {
+    "id": 2,
+    "image": "airbaltic.png",
+    "alt": "airbaltic"
+  },
+  {
+    "id": 3,
+    "image": "Ryanair_logo.png",
+    "alt": "Ryanair"
+  }
+]

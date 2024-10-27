@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* 
+fontFamily: "Montserrat, sans-serif"
+fontFamily: "Arimo, sans-serif"
+fontFamily: "Fira Mono, monospace"
+ */
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.fira-mono {
+  font-family: "Fira Mono", monospace;
+}
+
+.arimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white-bg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 80px;
+}
+
+:root {
+  --gray: #1d1d1d;
+  --white: #f8f8f8;
+  --red: #cd1e1e;
+  --black: #050505;
+  --text: #272727;
+  --light-gray: #585858;
+  --green: #2da719;
+  --white-bg: #e1e1e1;
+}
+
+.button {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--red);
+  border: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.button:hover,
+.green-button:hover {
+  /* background-color: hsl(0, 84%, 49%); */
+  filter: brightness(1.2);
+  filter: saturate(1.5);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 7.5rem;
+  font-weight: 800;
+  color: var(--white);
+  text-align: center;
+  margin-top: auto;
+}
+
+main {
+  width: 1416px;
+  /* background-color: wheat; */
+  background-color: #e0e0e0;
+  margin: 0 auto;
+  box-shadow: 0px 0px 158px rgba(0, 0, 0, 0.05);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+.one-screen-section {
+  /* height: 100vh; */
+  height: calc(100vh - 80px);
+  /* height: 100%; */
+}
+
+h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--black);
+}
+h3 {
+  font-family: "Arimo", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--gray);
+}
+h4 {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.375rem;
+  color: var(--gray);
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.input-div {
+  border: 3px solid var(--gray);
+  background-color: var(--white-bg);
+  padding: 12px;
+  width: 100%;
+}
+
+.input-div select,
+.input-div input {
+  border: 0;
+  outline: 0;
+  background-color: var(--white-bg);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 100%;
+  color: var(--light-gray);
+}
+
+hr {
+  width: 100%;
+  height: 4px;
+  background-color: var(--text);
+  border: 0;
+}
+
+.section-space {
+  margin: 0 0;
+}
+
+.subtitle {
+  font-family: "Arimo", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: var(--text);
+  text-align: center;
+}
+
+@media screen and (max-width: 1472px) {
+  main {
+    width: 96%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .subtitle {
+    width: 83.00653594771242%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .one-screen-section {
+    height: 100%;
+  }
+
+  .section-space {
+    margin: 60px 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-height: 800px) {
+  .one-screen-section {
+    height: 100%;
+  }
+
+  .section-space {
+    margin: 60px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    font-size: 1.25rem;
+  }
+
+  .input-div select,
+  .input-div input {
+    border: 0;
+    outline: 0;
+    background-color: var(--white-bg);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: var(--light-gray);
+    font-weight: 600;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2.25rem;
+  }  
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h1 {
+    font-size: 3.75rem; 
+  }
+}
+

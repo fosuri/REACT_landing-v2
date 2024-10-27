@@ -1,0 +1,124 @@
+.tickets {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  /* background-color: cornflowerblue; */
+  width: 1176px;
+  margin: 0 auto;
+}
+
+.ticket {
+  background-color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+}
+
+.ticket-head p {
+  font-size: 1.875rem;
+  color: var(--gray);
+  font-weight: 700;
+}
+
+.ticket-head p sup {
+  text-decoration: line-through;
+  color: var(--light-gray);
+  font-size: 1.25rem;
+  margin-right: 4px;
+}
+
+.ticket-head p strong {
+  color: var(--black);
+}
+
+.ticket ul {
+  margin-bottom: 24px;
+  list-style-type: disc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--text);
+  margin: 16px 20px 60px 20px;
+}
+
+.ticket ul li {
+  margin: 4px 0;
+}
+
+.green-button {
+  font-family: "Arimo", sans-serif;
+  background-color: var(--green);
+  border: 0;
+  padding: 13px 48px;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--white);
+  width: 100%;
+  margin-top: auto;
+}
+
+.tickets-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+}
+
+.tickets-section .subtitle {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1472px) {
+  .tickets {
+    width: 83.05084745762712%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ticket ul {
+    margin: 16px 20px 30px 20px;
+  }
+
+  .tickets {
+    flex-direction: column;
+    width: 65.59139784946237%;
+  }
+
+  .ticket-head {
+    flex-direction: row;
+  }
+
+  .ticket {
+    width: 100%;
+    /* background-color: aquamarine; */
+  }
+
+  .tickets-section .subtitle {
+    margin-bottom: 24px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .green-button {
+    font-size: 1.25rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .ticket li {
+    font-size: 1.125rem;
+  }
+}
