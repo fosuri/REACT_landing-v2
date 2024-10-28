@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import FirstScreen from "./Components/FirstScreen/FirstScreen";
@@ -11,7 +11,6 @@ import FormSection from "./Components/FormSection/FormSection";
 import WhoSection from "./Components/WhoSection/WhoSection";
 import Footer from "./Components/Footer/Footer";
 
-
 function App() {
   const offerRef = useRef(null);
   const whyRef = useRef(null);
@@ -21,6 +20,8 @@ function App() {
   const formRef = useRef(null);
   const whoRef = useRef(null);
   const footerRef = useRef(null);
+
+  const [selectedTicket, setSelectedTicket] = useState(null);
 
   const scrollToSection = (sectionRef) => {
     sectionRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -62,11 +63,12 @@ function App() {
           <TicketsSection
             scrollToSection={scrollToSection}
             refs={{ formRef }}
+            setSelectedTicket={setSelectedTicket} // передаем функцию
           />
         </section>
         <hr />
         <section ref={formRef}>
-          <FormSection />
+          <FormSection selectedTicket={selectedTicket} />
         </section>
         <hr />
         <section ref={whoRef}>

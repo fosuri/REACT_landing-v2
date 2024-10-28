@@ -2,21 +2,25 @@ import React from "react";
 import tickets from "../../assets/Data/tickets.json";
 import "./TicketsSection.css";
 
-export default function TicketsSection({ scrollToSection, refs }) {
+export default function TicketsSection({
+  scrollToSection,
+  refs,
+  setSelectedTicket,
+}) {
   return (
-    <div class="tickets-section one-screen-section section-space">
+    <div className="tickets-section one-screen-section section-space">
       <h2>PILETID JA HINNAD</h2>
-      <p class="subtitle">
-        Vaatama sellel, mis pileti te valisite, te saate täieliku ekskursiooni
-        programmi
+      <p className="subtitle">
+        Vaatamata sellele, mis pileti te valisite, te saate täieliku
+        ekskursiooni programmi
       </p>
-      <div class="tickets">
+      <div className="tickets">
         {tickets.map((ticket, index) => {
           const splitDesc = ticket.description.split(", ");
           const newPrice = ticket.price - 201;
           return (
-            <div class="ticket">
-              <div class="ticket-head">
+            <div className="ticket" key={index}>
+              <div className="ticket-head">
                 <p>{ticket.type}</p>
                 <p>
                   <sup>{ticket.price}€</sup>
@@ -35,6 +39,7 @@ export default function TicketsSection({ scrollToSection, refs }) {
                 className="button green-button"
                 onClick={(e) => {
                   e.preventDefault();
+                  setSelectedTicket(ticket.type); // устанавливаем выбранный билет
                   scrollToSection(refs.formRef);
                 }}
               >

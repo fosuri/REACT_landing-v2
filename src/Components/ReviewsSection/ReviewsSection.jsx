@@ -7,7 +7,7 @@ export default function ReviewsSection() {
   return (
     <div class="reviews-section one-screen-section section-space">
       <h2>
-        MIDA <span class="red-text">OSALEJAD</span>ÜTLEVAD
+        MIDA <span class="red-text">OSALEJAD </span>ÜTLEVAD
       </h2>
 
 
